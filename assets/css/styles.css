@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Questrial&display=swap');
+
 body {
         background-color: white;
         color: black;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: 'Questrial', sans-serif;
         font-size: 18px; 
     }
 
@@ -11,18 +13,25 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:serif;
+    font-family: 'DM Serif Display', serif;
 }
 
 h1 { 
-    background-color: rgb(224, 222, 209);
+    background-color: rgb(236, 235, 226);
     text-align: center;
     height: 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
     font-size: 40px;
     font-weight: bold;
-}
+    text-decoration: none;
+  }
+
+  header h1 a {
+      color: rgb(154, 190, 154);
+      text-decoration: none;
+      background-color: white;
+      padding: 10px 100px;
+  }
 
 h2 {
     font-family: serif;
@@ -33,9 +42,20 @@ h2 {
     p  {
         font-size: 16px;
         line-height: 23px;
-        margin-bottom: 10px;
+        margin: 10px 20px;  
     }
 
+h3 {
+    font-family: serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+    p {
+        margin-left: 50px; ;
+    }
 
 .wrapper {
     width: 1500px;
@@ -47,18 +67,35 @@ header {
 
 }
 
-
-
 nav {
     background-color: whitesmoke;
     text-align: center;
     padding: 20px;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 20px;
+    
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    display: inline;
+    background-color: white;
+    padding: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+        background-color: rgb(216, 221, 217);
 }
 
 main {
-    background-color: #d8efe2;
+    background-color: #daece2;
     padding: 5%;
 
 }
@@ -67,5 +104,5 @@ footer {
     background-color: grey;
     height: 250px;
     padding: 20px;
-}
+} 
 
