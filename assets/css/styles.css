@@ -156,22 +156,32 @@ footer p {
 
 }
 
+
 /* robinboyd.html content */
 
 body.robinboyd {
     background-color: rgb(255, 255, 255);
 }  
 
+.leftimg  {
+    width: 30%;
+    float: right;
+    border: 3px solid;
+    padding: 12px;
+    background-color: ivory;
+    margin: 50px 50px;
+
+}
 
     .shadowbox {
-    
+
     text-align: center;
     width: 25em;
     border: 5px solid rgb(158, 154, 154);
     box-shadow: 8px 8px 5px rgb(182, 207, 184);
     padding: 8px 12px;
-    margin: 4rem;    
-    margin-right: 50px;
+    margin: 2rem;    
+    margin-right: 40px;
     
 }
 
@@ -181,12 +191,26 @@ h5 {
     padding-bottom: 5rem;
 }
 
+
+
 body.history  {
+
 }
+ 
+  .column {
+    float: center;
+    margin-left: 25%;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+    
 
 h6 {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5em;
+    padding: 20px;
 }
 
 p {
@@ -194,13 +218,21 @@ p {
 }
 
 
+/* Media query */
 
-
-
-/* Media screen */
-
-@media screen and (max-device-width: 480px) { 
+/* mobile phone */
+@media screen and (max-device-width: 768px) { 
     .column { 
         float: none; 
-    } 
-}
+        width: 100%;
+        background-color: white;
+        font-style: normal;
+    }
+
+@media screen and (max-width: 600px) {
+            body {
+                background-color: white;
+                float: none;
+            }
+            
+            
