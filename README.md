@@ -7,7 +7,9 @@ Project 2 – Responsive Website                                                
 Semester 1, 2021
 
 Rationale
-In this assignment, the brief explained that the task was to create a responsive website for the Churchill House. We were provided with content including text and images. This assignment was simply for us to focus on the code and further our knowledge on the different programs that were available to us. With all the information provided to us through Canvas and in tutorials, there was enough given information to be able to create a simple website. 
+
+<p>In this assignment, the brief explained that the task was to create a responsive website for the Churchill House. We were provided with content including text and images. This assignment was simply for us to focus on the code and further our knowledge on the different programs that were available to us. With all the information provided to us through Canvas and in tutorials, there was enough given information to be able to create a simple website. </p>
+
 When I think of the Churchill House, I think of neutral colours and parallel lines. My goal for the website was to create something very simple and easy for any interactive user to navigate their way around the website without it being too confusing. 
 In project 1, we had the task of creating an inspiration board to get our minds thinking about what our website could look like. After reading the brief multiple times, I created an inspiration board that I believe would suit any age and would keep them in the loop of the direction of the website, even though I have changed some elements for the final outcome. 
 
